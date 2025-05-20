@@ -2,8 +2,8 @@ function Guessnumb() {
   const nombreMystere = Math.floor(Math.random() * 10) + 1;
   let essaisRestants = 3;
   let gagne = false;
-
-  while (essaisRestants > 0) {
+// boucle while de chatgpt
+  while (essaisRestants > 0) { 
     let reponse = prompt(
       `Devine le nombre entre 1 et 10\nTu as encore ${essaisRestants} essai(s).`
     );
